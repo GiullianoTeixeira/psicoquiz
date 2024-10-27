@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psicoquiz</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.jpg') }}">
 </head>
 <body>
     <div class="container">
-        <h1>PSICOQUIZ (parte temporária)</h1>
         <div class="content">
             {% block content %}{% endblock %}
         </div>

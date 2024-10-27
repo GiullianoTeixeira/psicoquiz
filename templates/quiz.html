@@ -1,17 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>Question {{ question_number }}</h2>
-    <form method="POST">
-        <div class="question">
-            <p>{{ question['question'] }}</p>
-            {% for option in question['options'] %}
-                <label>
-                    <input type="radio" name="trait" value="{{ option['trait'] }}" required>
-                    {{ option['text'] }}
-                </label><br>
-            {% endfor %}
-        </div>
-        <button type="submit">Next</button>
+    <form method="POST" action="{{ url_for('quiz', question_index=question_index) }}">
+        <p>{{ question["question"] }}</p>
+        
+        {% for option in question["options"] %}
+            <label>
+                <input type="radio" name="type" value="{{ option['type'] }}" required>
+                {{ option['text'] }}
+            </label><br>
+        {% endfor %}
+        
+        <button type="submit">Próximo</button>
     </form>
 {% endblock %}

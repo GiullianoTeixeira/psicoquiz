@@ -1,5 +1,4 @@
 - reconsider blueprints approach
-- fix results bug
 - modularize
 - ui design
 - translate to portuguese
