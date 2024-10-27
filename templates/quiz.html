@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Question {{ question_number }}</h2>
+    <form method="POST">
+        <div class="question">
+            <p>{{ question['question'] }}</p>
+            {% for option in question['options'] %}
+                <label>
+                    <input type="radio" name="trait" value="{{ option['trait'] }}" required>
+                    {{ option['text'] }}
+                </label><br>
+            {% endfor %}
+        </div>
+        <button type="submit">Next</button>
+    </form>
+{% endblock %}
