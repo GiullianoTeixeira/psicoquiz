@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div id="pai">
+    <div id="megahome">
         <div id="home">
-            <div class="row">
+            <div id="rowup">
                 <h1 class="psicoquiz">PSICO</h1>
-                <img id="brain-logo" src="{{ url_for('static', filename='brain.png') }}" alt="Brain Logo">
+                <img id="brain-logo" src="{{ url_for('static', filename='brain-simple.png') }}" alt="Brain Logo">
             </div>
-            <div class="row">
-                <img id="psy-logo" src="{{ url_for('static', filename='psy.png') }}" alt="Psy Logo">
+            <div id="rowdown">
+                <img id="psy-logo" src="{{ url_for('static', filename='psy.png') }}" alt="Psy Logo"> 
                 <h1 class="psicoquiz">QUIZ</h1>
             </div>
         </div>
