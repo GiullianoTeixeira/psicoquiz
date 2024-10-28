@@ -1,3 +1,2 @@
 - ui design
-- translate to portuguese
 - empty out business logic functions for later implementation

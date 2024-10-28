@@ -2,6 +2,20 @@
 
 {% block content %}
     <h2>Seus resultados:</h2>
-    <p>Você possivelmente tem <strong>{{ personality }}</strong>.</p>
+    {% if result|length == 1 %}
+        <h3>Inconclusivo</h3>
+        <p>{{ result[0][0] }}</p>
+    {% else %}
+        {% for trait in traits %}
+            {% if trait != "Inconclusivo" %}
+                <h3>{{ trait }}</h3>
+                <ul>
+                {% for item in result[loop.index0] %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
     <a href="{{ url_for('home') }}">Voltar para o início</a>
 {% endblock %}
