@@ -43,4 +43,4 @@ def setup_routes(app):
     @app.route('/results')
     def results():
         result = session.get('result', [])
-        return render_template('results.html', result=result, traits=traits)
+        return render_template('results.html', result=result, traits=traits, body_background_color='rgb(177, 156, 217)')

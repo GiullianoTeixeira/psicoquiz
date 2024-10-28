@@ -3,20 +3,15 @@ from text import *
 
 # NOTE: respostas É UM DICIONÁRIO DA FORMA {tipo: peso}
 
+# FIXME: IMPLEMENTAR A FUNÇÃO QUE RETORNA O INTERVALO DE CADA TIPO DE RESULTADO
+def retornar_intervalo(respostas):
+    return 
+
+# FIXME: IMPLEMENTAR A FUNÇÃO QUE CALCULA O RESULTADO FINAL
 def calcular_resultado(respostas):
-    resultado = []
-    if respostas[inconclusivo] >= 3:
-        return [r[inconclusivo][0]]
-    
-    for tipo in respostas:
-        if tipo == inconclusivo:
-            pass
-        elif respostas[tipo] > 10:
-            resultado.append(r[tipo][1])
-        elif respostas[tipo] <= 10:
-            resultado.append(r[tipo][3])
-        else:
-            resultado.append(r[tipo][5])
+    resultado = {}
+    for key in respostas:
+        resultado[key] = [None]
 
     return resultado
             

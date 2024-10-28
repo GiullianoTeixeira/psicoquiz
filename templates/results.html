@@ -1,21 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>Seus resultados:</h2>
-    {% if result|length == 1 %}
-        <h3>Inconclusivo</h3>
-        <p>{{ result[0][0] }}</p>
-    {% else %}
+    <body style="background-color: {{ body_background_color }};">
+        <h2>Seus resultados:</h2>
         {% for trait in traits %}
             {% if trait != "Inconclusivo" %}
-                <h3>{{ trait }}</h3>
+                <h3 style="color: rgb(150, 221, 216)">{{ trait }}</h3>
                 <ul>
-                {% for item in result[loop.index0] %}
+                {% for item in result[trait] %}
                     <li>{{ item }}</li>
                 {% endfor %}
                 </ul>
             {% endif %}
         {% endfor %}
-    {% endif %}
-    <div style="text-align: center;"><a href="{{ url_for('home') }}">Voltar para o início</a></div>
+        <div style="text-align: center;"><a href="{{ url_for('home') }}">Voltar para o início</a></div>
+    </body>
 {% endblock %}
