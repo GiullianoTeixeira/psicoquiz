@@ -1,7 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>Bem-vindo(a) ao Psicoquiz!</h2>
-    <img src="{{ url_for('static', filename='quiz_logo.png') }}" alt="Quiz Logo">
-    <a href="{{ url_for('instructions') }}">Começar Quiz</a>
+    <div id="pai">
+        <div id="home">
+            <div class="row">
+                <h1 class="psicoquiz">PSICO</h1>
+                <img id="brain-logo" src="{{ url_for('static', filename='brain.png') }}" alt="Brain Logo">
+            </div>
+            <div class="row">
+                <img id="psy-logo" src="{{ url_for('static', filename='psy.png') }}" alt="Psy Logo">
+                <h1 class="psicoquiz">QUIZ</h1>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center;"><a href="{{ url_for('instructions') }}">Próximo</a></div>
 {% endblock %}

@@ -21,5 +21,8 @@ def calcular_resultado(respostas):
     return resultado
             
 
+# NOTE: final_result É A FUNÇÃO ENVIADA PARA O CÓDIGO PRINCIPAL 
+# E DEVE RETORNAR UMA LISTA COM RESULTADOS DE r 
+
 def final_result(answers):
     return calcular_resultado(answers)

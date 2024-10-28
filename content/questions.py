@@ -1,5 +1,7 @@
 from text import *
 
+# FIXME: DESCOMENTAR QUESTÕES, COMPLETAR COM PESOS DAS RESPOSTAS
+
 questions = [
     ##############################################################################################
     # Q1

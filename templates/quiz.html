@@ -2,7 +2,10 @@
 
 {% block content %}
     <form method="POST" action="{{ url_for('quiz') }}">
-        <p>{{ question["question"] }}</p>
+        <div class="question">
+            <span id="number">{{ question_number }}</span>
+            <p>{{ question["question"] }}</p>
+        </div>
 
         {% for option in question["options"] %}
             <label>
@@ -11,6 +14,6 @@
             </label><br>
         {% endfor %}
         
-        <button type="submit">Próximo</button>
+        <div style="text-align: center;"><button type="submit">Próximo</button></div>
     </form>
 {% endblock %}
