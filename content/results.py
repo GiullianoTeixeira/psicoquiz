@@ -1,14 +1,14 @@
 from text import *
 
 results = {
-    tipo_A: {
+    ansiedade: {
         1: A_otimo,
         2: A_bom,        
         3: A_ruim,
         4: A_pessimo,
         5: A_nada
     },
-    tipo_B: {
+    burnout: {
         1: B_otimo,
         2: B_bom,        
         3: B_ruim,

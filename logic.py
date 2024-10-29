@@ -12,6 +12,8 @@ def calcular_resultado(respostas):
     resultado = {}
     for key in respostas:
         resultado[key] = [None]
+    
+    print(respostas)
 
     return resultado
             

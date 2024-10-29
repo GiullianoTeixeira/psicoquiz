@@ -1,15 +1,15 @@
 ##############################################################################################
 # TRAITS
 ##############################################################################################
-tipo_A = "Ansiedade"
-tipo_B = "Burnout"
+ansiedade = "Ansiedade"
+burnout = "Burnout"
 tipo_C = "ccccc"
 tipo_D = "ddddd"
 tipo_E = "eeeee"
 inconclusivo = "Inconclusivo"
 # FIXME: AJEITAR VARIÁVEIS DO QUE SE QUER MEDIR
 
-traits = [tipo_A, tipo_B, tipo_C, tipo_D, tipo_E, inconclusivo]
+traits = [ansiedade, burnout, tipo_C, tipo_D, tipo_E, inconclusivo]
 # FIXME: CERTIFICAR QUE ESSA LISTA TEM TODOS OS TIPOS
 
 
@@ -99,6 +99,26 @@ q9 = {
 }
 
 q10 = {
+    "q": None,
+    "a1": None,
+    "a2": None,
+    "a3": None,
+    "a4": None,
+    "a5": None,
+}
+
+
+q11 = {
+    "q": None,
+    "a1": None,
+    "a2": None,
+    "a3": None,
+    "a4": None,
+    "a5": None,
+}
+
+
+q12 = {
     "q": None,
     "a1": None,
     "a2": None,
