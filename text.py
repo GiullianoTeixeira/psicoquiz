@@ -2,15 +2,14 @@
 # TRAITS
 ##############################################################################################
 ansiedade = "Ansiedade"
-burnout = "Burnout"
-tipo_C = "ccccc"
-tipo_D = "ddddd"
-tipo_E = "eeeee"
+exaustao_mental = "Exaustão Mental"
+alto_para_raiva = "Alto para Raiva"
+alto_para_tristeza = "Alto par Tristeza"
+voce_esta_bem  = "Você está bem!"
 inconclusivo = "Inconclusivo"
 # FIXME: AJEITAR VARIÁVEIS DO QUE SE QUER MEDIR
 
-traits = [ansiedade, burnout, tipo_C, tipo_D, tipo_E, inconclusivo]
-# FIXME: CERTIFICAR QUE ESSA LISTA TEM TODOS OS TIPOS
+traits = [ansiedade, exaustao_mental, alto_para_raiva, alto_para_tristeza, voce_esta_bem , inconclusivo]
 
 
 
@@ -172,7 +171,7 @@ B_pessimo = [
     "Orientamos que [...]"
 ]
 B_nada = [
-    "Não conseguimos medir como você está quanto a burnout."
+    "Não conseguimos medir como você está quanto a exaustao_mental."
 ]
 
 ##############################################################################################
@@ -230,7 +229,7 @@ E_nada = [
 ##############################################################################################
 
 inc = [
-    "Não foi possível analisar sua situação porque você respondeu \"Não sei dizer\" muitas vezes."
+    "Seu resultado deu inconclusivo pois você respondeu "
 ]
 
 # FIXME: COMPLETAR RESULTADOS

@@ -16,7 +16,7 @@ def calcular_resultado(respostas):
     print(respostas)
 
     return resultado
-            
+        
 
 # NOTE: final_result É A FUNÇÃO ENVIADA PARA O CÓDIGO PRINCIPAL 
 # E DEVE RETORNAR UMA LISTA COM RESULTADOS DE r 
