@@ -35,95 +35,95 @@ q2 = {
 }
 
 q3 = {
-    "q": "pergunta pergunta pergunta",
-    "a1": "resposta",
-    "a2": "resposta resposta",
-    "a3": "resposta resposta resposta",
-    "a4": "resposta resposta resposta resposta",
-    "a5": "resposta resposta resposta resposta resposta"
+    "q": "Você tem se sentido sobrecarregado ultimamente?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer"
 }
 
 q4 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": "Você fez algo que te deixou animado?",
+    "a1": "Sim, muitas vezes",
+    "a2": "Sim, algumas vezes",
+    "a3": "Raramente",
+    "a4": "Não, nenhuma",
+    "a5": "Não sei dizer",
 }
 
 q5 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": "Você tem se sentido cansado ultimamente?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes", 
+    "a5": "Não sei dizer",
 }
 
 q6 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": "Você tem se sentido desmotivado ultimamente?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 
 q7 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": "Você está preocupado com oque os outros estão pensando de você?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 
 q8 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q":" Você esta se sentindo sozinho ultimamente?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 
 q9 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": "Você tem se sentido triste ultimamente?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 
 q10 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": 'Você tem se sentido irritado ultimamente?',
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 
 
 q11 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q": "Você tem se sentido entediado?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 
 
 q12 = {
-    "q": None,
-    "a1": None,
-    "a2": None,
-    "a3": None,
-    "a4": None,
-    "a5": None,
+    "q":"Alguma coisa te deixou com raiva recentemente?",
+    "a1": "Não",
+    "a2": "Raramente",
+    "a3": "Às vezes",
+    "a4": "Muitas vezes",
+    "a5": "Não sei dizer",
 }
 # FIXME: AJEITAR PERGUNTAS E RESPOSTAS
 
