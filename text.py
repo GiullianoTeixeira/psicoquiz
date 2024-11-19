@@ -132,104 +132,58 @@ q12 = {
 ##############################################################################################
 # RESULTS
 ##############################################################################################
-A_otimo = [
-    "Suas respostas indicam que você [...]"
-]
-A_bom = [
-    "Suas respostas indicam que [...], mas você deve prestar atenção em [...]"
-]
-A_ruim = [
-    "Suas respostas indicam que [...].",
-    "Você pode ter [...].",
-    "Orientamos que [...]"
-]
-A_pessimo = [
-    "Suas respostas indicam que [...].",
-    "Você pode ter [...].",
-    "Orientamos que [...]"
-]
-A_nada = [
-    "Não conseguimos medir como você está quanto a ansiedade."
-]
+res_ansiedade = [
+    "Suas respostas indicam que você está com altos nives em ansiedade",
+    "Você pode estar preocupado preocupado com eventos futuros.",
+    "Orientamos que você:",
+    "-tente identificar oque está te preocupando hoje",
+    "-faca algo que te \"prenda\" ao aqui e agora, como assistir a um filme, ler um bom livro, ou até sair com seus amigos",
+    "-caso persista, procure um expecialista para te orientar e cuidar da sua saúde mental"
+    "lembre-se: pode dar tudo certo, o erro é só um talvez!"
 
-##############################################################################################
+]
+res_exaustao_mental= [
+    "Suas respostas indicam que você está exausto mentalmente"
+    "Você pode estar cansado de sua rotina e estressado com problemas pessoais."
+    "Orientamos que você:"
+    "-tente identificar o porque de estar estressado e cansado"
+    "-faca algo que voce gosta, mas que nao precise cansar muito a mente como assistir a um filme, sair com seus amigos, ou até tomar um banho relaxante "
+    "-caso persista, procure um expecialista para te orientar e cuidar da sua saúde mental"
+    "lembre-se: você tem que descansar, não precisa carregar tudo nas costas!"
 
-B_otimo = [
-    "Suas respostas indicam que você está com um ótimo equilíbrio de afazeres e lazer. Continue assim!"
 ]
-B_bom = [
-    "Suas respostas indicam que [...], mas você deve prestar atenção em [...]"
-]
-B_ruim = [
-    "Suas respostas indicam que [...].",
-    "Você pode ter [...].",
-    "Orientamos que [...]"
-]
-B_pessimo = [
-    "Suas respostas indicam que [...].",
-    "Você pode ter [...].",
-    "Orientamos que [...]"
-]
-B_nada = [
-    "Não conseguimos medir como você está quanto a exaustao_mental."
-]
+res_alto_para_raiva = [
+"Suas respostas indicam que você está com a raiva muito aflorada"
+    "Você pode estar irritado com a atitude de alguém ou com algo que aconteceu."
+    "Orientamos que você:"
+    "-tente identificar o porque de estar irritado"
+    "-caso seja por alguem, recomendamos que você tente conversar com ele(a)"
+    "-caso seja por algo, recomendamos que você faça coisas que relaxem, como um banho relaxante, comer algo que gosta, ou até tomar um sorvete"
+    "lembre-se: há coisas que não estão no nosso controle"
 
-##############################################################################################
-
-C_otimo = [
-    None
+    ]
+res_alto_para_tristeza = [
+   "Suas respostas indicam que você está muito magoado"
+    "Você pode estar triste com alguém, com algo ou com si mesmo."
+    "Orientamos que você:"
+    "-tente identificar o porque de estar trite"
+    "-caso seja por alguem, recomendamos que você tente conversar com ele(a)"
+    "-caso seja por algo, recomendamos que você faça coisas que você goste e te alegrem, pratique um hobbie"
+    "lembre-se: sinta sua tristeza, mas não deixe ela tomar conta, tudo bem não estar sempre bem!"
+    
 ]
-C_bom = [
-    None
+res_voce_esta_bem = [
+    "Suas respostas indicam que você está aparentemente bem"
+    "apesar de ter alguns problemas você não está deixando isso te afetar."
+    "Orientamos que você:"
+    "continue cuidando da sua saúde mental"
+    "lembre-se: estar bem não é um motivo para parar de se cuidar!"
 ]
-C_ruim = [
-    None
-]
-C_pessimo = [
-    None
-]
-C_nada = [
-    None
-]
-##############################################################################################
-
-D_otimo = [
-    None
-]
-D_bom = [
-    None
-]
-D_ruim = [
-    None
-]
-D_pessimo = [
-    None
-]
-D_nada = [
-    None
-]
-
-##############################################################################################
-
-E_otimo = [
-    None
-]
-E_bom = [
-    None
-]
-E_ruim = [
-    None
-]
-E_pessimo = [
-    None
-]
-E_nada = [
-    None
-]
-##############################################################################################
-
-inc = [
-    "Seu resultado deu inconclusivo pois você respondeu "
+res_inconclusivo = [
+    "Não conseguimos medir como oque você  está sentindo, devido as muitas respostas \"não sei dizer\"."
+    "Você pode estar confuso com seus sentimentos, tente avalia-los para entender melhor oque está sentindo."
+    "Orientamos que você:"
+    "-converse com um amigo,ou procure um expecialista para te orientar e te ajudar a se entender melhor" 
 ]
 
 # FIXME: COMPLETAR RESULTADOS

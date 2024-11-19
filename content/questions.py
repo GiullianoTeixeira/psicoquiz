@@ -8,26 +8,41 @@ questions = [
     ##############################################################################################
     {"question": q1["q"], "options": [
         {"text": q1["a1"], "traits": {
-            ansiedade: 10,
-            exaustao_mental: 1,
-            alto_para_raiva: 5
+            voce_esta_bem: 20,
+            
         }},
         {"text": q1["a2"], "traits": {
-            ansiedade: 20,
-            exaustao_mental: 1,
-            alto_para_raiva: 1
+            ansiedade: 2,
+            exaustao_mental: 2,
+            alto_para_raiva: 2,
+            alto_para_tristeza: 2,
+            voce_esta_bem: 10,
+            inconclusivo:0,
         }},
         {"text": q1["a3"], "traits": {
-            alto_para_raiva: 1,
-            alto_para_tristeza: 1
+            ansiedade: 10,
+            exaustao_mental: 15,
+            alto_para_raiva: 8,
+            alto_para_tristeza: 20,
+            voce_esta_bem: 0,
+            inconclusivo:0,
         }},
         {"text": q1["a4"], "traits": {
-            alto_para_tristeza: 1,
-            voce_esta_bem : 1
+            ansiedade: 10,
+            exaustao_mental: 15,
+            alto_para_raiva: 10,
+            alto_para_tristeza: 15,
+            voce_esta_bem: 0,
+            inconclusivo:0,
         }},
         {"text": q1["a5"], "traits": {
-            inconclusivo: 1
-        }}
+            ansiedade: 0,
+            exaustao_mental: 0,
+            alto_para_raiva: 0,
+            alto_para_tristeza: 0,
+            voce_esta_bem: 0,
+            inconclusivo:10,
+        }},
     ]},
     ##############################################################################################
     # Q2
