@@ -1,7 +1,5 @@
 from text import *
 
-# : DESCOMENTAR QUESTÕES, COMPLETAR COM PESOS DAS RESPOSTAS
-
 questions = [
     ##############################################################################################
     # Q1
@@ -17,7 +15,7 @@ questions = [
             alto_para_raiva: 2,
             alto_para_tristeza: 2,
             voce_esta_bem: 10,
-            inconclusivo:0,
+            inconclusivo: 0,
         }},
         {"text": q1["a3"], "traits": {
             ansiedade: 10,
@@ -36,12 +34,7 @@ questions = [
             inconclusivo:0,
         }},
         {"text": q1["a5"], "traits": {
-            ansiedade: 0,
-            exaustao_mental: 0,
-            alto_para_raiva: 0,
-            alto_para_tristeza: 0,
-            voce_esta_bem: 0,
-            inconclusivo:10,
+            inconclusivo: 10,
         }},
     ]},
     ##############################################################################################
@@ -92,7 +85,6 @@ questions = [
             inconclusivo: 1
         }}
     ]},
-    
     ##############################################################################################
     # Q4
     ##############################################################################################
@@ -141,7 +133,54 @@ questions = [
           inconclusivo: 1
         }}
     ]},
-   
+    ##############################################################################################
+    # Q6
+    ##############################################################################################
+    {"question": q6["q"], "options": [
+        {"text": q6["a1"], "traits": {
+            ansiedade: 1,
+            exaustao_mental: 1
+        }},
+        {"text": q6["a2"], "traits": {
+            exaustao_mental: 1,
+            alto_para_raiva: 1
+        }},
+        {"text": q6["a3"], "traits": {
+            alto_para_raiva: 1,
+            alto_para_tristeza: 1
+        }},
+        {"text": q6["a4"], "traits": {
+            alto_para_tristeza: 1,
+            voce_esta_bem : 1
+        }},
+        {"text": q6["a5"], "traits": {
+          inconclusivo: 1
+        }}
+    ]},
+    ##############################################################################################
+    # Q7
+    ##############################################################################################
+    {"question": q7["q"], "options": [
+        {"text": q7["a1"], "traits": {
+            ansiedade: 1,
+            exaustao_mental: 1
+        }},
+        {"text": q7["a2"], "traits": {
+            exaustao_mental: 1,
+            alto_para_raiva: 1
+        }},
+        {"text": q7["a3"], "traits": {
+            alto_para_raiva: 1,
+            alto_para_tristeza: 1
+        }},
+        {"text": q7["a4"], "traits": {
+            alto_para_tristeza: 1,
+            voce_esta_bem : 1
+        }},
+        {"text": q7["a5"], "traits": {
+          inconclusivo: 1
+        }}
+    ]},
     ##############################################################################################
     # Q8
     ##############################################################################################
