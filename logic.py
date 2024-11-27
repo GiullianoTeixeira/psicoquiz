@@ -1,7 +1,7 @@
 from content.results import results as r
 from text import *
 
-# NOTE: respostas É UM DICIONÁRIO DA FORMA {tipo: peso}
+# pontos máximos:
 # ansiedade = 180
 # bem = 265
 # exaustao mental = 224
@@ -9,7 +9,6 @@ from text import *
 # tristeza = 230
 # inc = 120
 
-# FIXME: IMPLEMENTAR A FUNÇÃO QUE CALCULA O RESULTADO FINAL
 def calcular_resultado(respostas):
     print(respostas)
     if respostas[exaustao_mental] > 130:
@@ -25,9 +24,6 @@ def calcular_resultado(respostas):
     else:
         return r[6]
         
-    
-
-# FIXME: IMPLEMENTAR A FUNÇÃO QUE CALCULA O RESULTADO FINAL
 def titulo_resultado(respostas):
     if respostas[exaustao_mental] > 130:
         return exaustao_mental
@@ -41,12 +37,6 @@ def titulo_resultado(respostas):
         return voce_esta_bem
     else:
         return inconclusivo
-    
-    
-        
-
-# NOTE: final_result É A FUNÇÃO ENVIADA PARA O CÓDIGO PRINCIPAL 
-# E DEVE RETORNAR UMA LISTA COM RESULTADOS DE r 
 
 def final_result(answers):
     return (calcular_resultado(answers), titulo_resultado(answers))
