@@ -33,8 +33,9 @@ def setup_routes(app):
             current_question = session['current_question']
 
         if current_question >= len(questions):
-            result = final_result(session['answers'])
+            result, title = final_result(session['answers'])
             session['result'] = result
+            session['title'] = title
             return redirect(url_for('results'))
 
         question = questions[current_question]
@@ -43,4 +44,5 @@ def setup_routes(app):
     @app.route('/results')
     def results():
         result = session.get('result', [])
-        return render_template('results.html', result=result, traits=traits, body_background_color='rgb(177, 156, 217)')
+        title = session.get('title', '')
+        return render_template('results.html', result=result, title=title, body_background_color='rgb(177, 156, 217)')

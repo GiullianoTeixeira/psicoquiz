@@ -2,24 +2,51 @@ from content.results import results as r
 from text import *
 
 # NOTE: respostas É UM DICIONÁRIO DA FORMA {tipo: peso}
-
-# FIXME: IMPLEMENTAR A FUNÇÃO QUE RETORNA O INTERVALO DE CADA TIPO DE RESULTADO
-def retornar_intervalo(respostas):
-    return 
+# ansiedade = 180
+# bem = 265
+# exaustao mental = 224
+# raiva = 168
+# tristeza = 230
+# inc = 120
 
 # FIXME: IMPLEMENTAR A FUNÇÃO QUE CALCULA O RESULTADO FINAL
 def calcular_resultado(respostas):
-    resultado = {}
-    for key in respostas:
-        resultado[key] = [None]
-    
     print(respostas)
+    if respostas[exaustao_mental] > 130:
+        return r[2]
+    elif respostas[ansiedade] > 100:
+        return r[1]
+    elif respostas[alto_para_raiva] > 86:
+        return r[3]
+    elif respostas[alto_para_tristeza] > 120:
+        return r[4]
+    elif respostas[voce_esta_bem] > 120:
+        return r[5]
+    else:
+        return r[6]
+        
+    
 
-    return resultado
+# FIXME: IMPLEMENTAR A FUNÇÃO QUE CALCULA O RESULTADO FINAL
+def titulo_resultado(respostas):
+    if respostas[exaustao_mental] > 130:
+        return exaustao_mental
+    elif respostas[ansiedade] > 100:
+        return ansiedade
+    elif respostas[alto_para_raiva] > 86:
+        return alto_para_raiva
+    elif respostas[alto_para_tristeza] > 120:
+        return alto_para_tristeza
+    elif respostas[voce_esta_bem] > 120:
+        return voce_esta_bem
+    else:
+        return inconclusivo
+    
+    
         
 
 # NOTE: final_result É A FUNÇÃO ENVIADA PARA O CÓDIGO PRINCIPAL 
 # E DEVE RETORNAR UMA LISTA COM RESULTADOS DE r 
 
 def final_result(answers):
-    return calcular_resultado(answers)
+    return (calcular_resultado(answers), titulo_resultado(answers))
