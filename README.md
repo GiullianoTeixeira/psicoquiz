@@ -8,6 +8,8 @@ O objetivo deste projeto é praticar os conhecimentos de lógica de programaçã
 # Como acessar o quiz
 O quiz foi hosteado usando PythonAnywhere e pode ser acessado [aqui](https://bit.ly/psicoquiz). Se esse link não funcionar, avise-me o quanto antes.
 
+Esse quiz foi feito para uso em telas grandes.
+
 # Principais arquivos e pastas
 As seguintes explicações foram dadas ao grupo responsável por esse projeto. Elas estão aqui de modo adaptado.
 
